@@ -5,6 +5,7 @@ FROM quay.io/keycloak/keycloak:23.0.5
 ENV KEYCLOAK_ADMIN=admin
 ENV KEYCLOAK_ADMIN_PASSWORD=admin
 ENV KC_SAMESITE="None"
+ENV KEYCLOAK_FEATURES=upload_scripts
 
 # Lege das Verzeichnis für die Realm-Konfiguration fest
 WORKDIR /opt/keycloak
