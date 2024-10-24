@@ -589,7 +589,7 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "Test",
+      "secret": "Test1234",
       "redirectUris": [
         "/*"
       ],
